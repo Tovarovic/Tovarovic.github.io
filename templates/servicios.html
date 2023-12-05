@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ROME FIT</title>
+        <link rel="icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/Reset.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/Style.css') }}">        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img class="img_header" src="img/logo.png" alt="logo"></h1>
+                <nav>
+                    <a href="index.html">HOME</a>
+                    <a href="info.html">INFO</a>
+                    <a href="servicios.html">SERVICIOS</a>
+                    <a href="inscripcion.html">INSCRIPCION</a>
+                    <a href="usuarios.html">AD</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="servicios">
+            <h1>Nuestros servicios:</h1>
+            <ul class="lista_servicios">
+                <li>Iniciacion temprana 2 a 5 años</li>
+                <li>Iniciacion deportiva 6 a 11 años</li>
+                <li>Clases a domicilio</li>
+                <li>Funcional grupal (online) con personal trainer a cargo</li>
+                <li>Primera clase gratuita</li>
+            </ul>
+        </section>
+        <section class="section_video_servicios">
+            <h5>A continuacion una demostracion a cargo de una de nuestras entrenadoras:</h5>
+            <iframe src="https://www.youtube.com/embed/g0z0rqoSmxY?si=qgW10Gh7z1knIIQe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="video_servicios"></iframe>
+        </section>
+        <footer>
+            <a href="https://www.instagram.com/rome.training/" target="_blank" class="textoFooter"><img src="icons/instagram.png" alt="Instagram" class="icono_footer">ROME.TRAINING</a>
+            <a href="rome.fit.kids@gmail.com" target="_blank" class="textoFooter"><img src="icons/mail.png" alt="Mail" class="icono_footer">ROME.FIT.KIDS@GMAIL.COM</a>
+            <a href="" class="textoFooter"><img src="icons/whatsapp.png" alt="Whatsapp" class="icono_footer">1123898809</a>
+        </footer>
+    </body>
+</html>

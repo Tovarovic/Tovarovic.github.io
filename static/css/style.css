@@ -1,0 +1,253 @@
+/* CSS Index*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #141414;
+}
+
+header{
+    padding: 20px 0;
+    background-color: #141414;
+}
+
+.caja{
+    width: 90vw;
+    position: relative;
+    margin: -2.2% auto;
+}
+
+.img_header{
+    width: 4.5em;
+}
+
+nav{
+    position: absolute;
+    display: inline-flex;
+    top: 4.5em;
+    right: 5em;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    margin-left: 5%;
+}
+nav a{
+    text-transform: uppercase;
+    margin-left: 5%;
+    color: rgb(206, 55, 168);
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #ffffff;
+    text-decoration: underline ;
+}
+
+.banner{
+    width: 100%;
+}
+
+footer{
+    background-color: #141414;
+    text-align: center;
+    padding: 2em;
+}
+
+.textoFooter{
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    margin: 1em;
+    text-decoration: none;
+}
+
+.icono_footer{
+    size: 0.5em;
+    margin-right: 1em;
+}
+
+/* CSS Info */
+
+.experiencia{
+    background-color: rgb(206, 55, 168);
+    padding: 2em;
+}
+
+.experiencia > h1{
+    font-size: 2em;
+    font-style: italic;
+    padding-bottom: 0.8em;
+    text-align: center;
+}
+
+.experiencia > ul{
+    font-size: 1.5em;
+    list-style: disc inside;
+}
+
+.lista_experiencia{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.mapa{
+    color: rgb(206, 55, 168);
+    background-color: #141414;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: -0.5%;
+}
+
+.mapa > h2{
+    padding-top: 1em;
+}
+
+.mapa-contenido{
+    padding-top: 2em;
+}
+
+/* CSS Servicios */
+
+.servicios{
+    background-color: rgb(206, 55, 168);
+    padding: 2em;
+}
+
+.servicios > h1{
+    font-style: italic;
+    text-decoration: underline;
+    padding-bottom: 0.8em;
+    text-align: center;
+}
+
+.servicios > ul{
+    font-size: 1.5em;
+    list-style: disc inside;
+}
+
+.lista_servicios{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.section_video_servicios{
+    color: rgb(206, 55, 168);
+    background-color: #141414;
+}
+
+.section_video_servicios > h5{
+    font-size: 1.5em;
+    padding-bottom: 1em;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.video_servicios{
+    width: 100%;
+    height: 480px;
+    margin-bottom: -1%;
+}
+
+/* Css inscripcion*/
+
+.form_container{
+    background-image: url("banner/banner_inscripcion.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 2%;
+    padding-top: 2%
+}
+
+form > h2 {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+form {
+    color: rgb(206, 55, 168);
+    background-color: #141414;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    border:2px solid rgb(206, 55, 168);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: rgb(206, 55, 168);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Css responsive*/
+
+/* Para moviles */
+@media only screen and (max-width: 768px) {
+   .caja {
+      width: 100vw;
+      font-size: 60%;
+    }
+    .img_header{
+        width: 3.5em;
+    }
+    footer{
+        font-size: 0%;
+        word-spacing: 30px;
+        padding: 5%;
+  }
+  .experiencia{
+        font-size: 60%;
+  }
+  .servicios{
+    font-size: 72%;
+  }
+  form{
+    width: 95%;
+  }
+}
+
+/* Para tablets */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .caja{
+        font-size: 110%;
+    }
+ }
+
+
